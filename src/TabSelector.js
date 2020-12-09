@@ -10,7 +10,6 @@ class TabSelector extends Component {
   
 
   render() {
-    const { activeId } = this.state;
     return (
       <div className="TabSelector">
         <button
