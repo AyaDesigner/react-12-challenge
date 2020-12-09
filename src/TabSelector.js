@@ -14,7 +14,7 @@ class TabSelector extends Component {
       <div className="TabSelector">
         <button
           id="home"
-          onClick={this.props.funcFromAppb}
+          onClick={this.props.funcFromApp}
           className={this.props.activeIdFromApp === 'home' ? 'active' : ''}
         >
           Home
